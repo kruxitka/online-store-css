@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Archivo+Black|Bree+Serif|Bungee|Courgette|Finger+Paint|Fredoka+One|Josefin+Sans|Luckiest+Guy|Monda|Signika|Wendy+One&display=swap');
+:root {
+    font-family: 'Montserrat', sans-serif;
+    --main-color: black;
+    scroll-behavior: smooth;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+}
+header nav .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+header nav .menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    flex: 1;
+    
+}
+header nav .menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    font-size: 1rem;
+}
+header nav .menu a:hover {
+    color: #f53838;
+}
+
+@media (min-width: 500px) {
+    header nav {
+    display: flex;
+    align-items: center;
+}
+}
+header .banner {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+header .banner h1 {
+    font-weight: bold;
+    color: white;
+}
+article.product img {
+    display: block;
+    width: 100%;
+}
+
+.product_buttons {
+    display: flex;
+    justify-content: center;
+}
+.product p {
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 640px) {
+   .product_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+   }   
+}
+@media (min-width: 960px) {
+    .product_list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 980px) {
+    .product_list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+.button {
+    background-color: #f53838;
+    border-color: transparent;
+}
+.card-button:hover {
+    background-color: black;
+    color: white;
+}
+
+@media (min-width: 350px) {
+ .footer  {
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 351px) {
+    .footer  {
+       display: flex;
+       justify-content: space-around;
+   }
+}
+.social img {
+    width: 30px;
+    height: 30px;
+}
+.subscribe input {
+    display: flex;
+}
