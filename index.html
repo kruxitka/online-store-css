@@ -1,130 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Bike Adventure</title>
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <div class="logo">Bike Adventure</div>
-                <ul class="menu">
-                    <li>
-                        <a href="#cross_country">Cross Country</a>
-                    </li>
-                    <li>
-                        <a href="#trail">Trail</a>
-                    </li>
-                    <li>
-                        <a href="#enduro">Enduro</a>
-                    </li>
-                </ul>
-                <!--<div class="cart">
-                    <a href="shopping_cart.html">
-                        <img src="img/shopping_cart.png" alt="Shopping_cart">
-                    </a>
-            </div>-->
-            </nav>
-            <div class="banner">
-                <h1>Find your bike for adventures</h1>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bike Adventure</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Bike Adventure</div>
+            <ul class="menu">
+                <li>
+                    <a href="#cross_country">Cross Country</a>
+                </li>
+                <li>
+                    <a href="#trail">Trail</a>
+                </li>
+                <li>
+                    <a href="#enduro">Enduro</a>
+                </li>
+            </ul>
+            <div class="shopping_cart">
+                <a href="shopping_cart.html">
+                    <img src="img/shopping_cart.svg" alt="Shopping_cart">
+                </a>
             </div>
-        </header>
-        <main>
-            <h2 id="cross_country">Cross Country</h2>
-            <div class="product_list">
-                <article class="product">
-                    <img src="img/full_grand-canyon-al-5-WMN_c1336.png" alt="Full Grand Canyon AL 5 WMN">
-                    <h4>Full Grand Canyon AL 5 WMN</h4>
-                    <div class="product_buttons">
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-                <article class="product">
-                    <img src="img/full_exceed-cf-sl-8-wmn_c1218.png" alt="Full Exceed CF SL 8 WNM">
-                    <h4>Full Exceed CF SL 8 WNM</h4>
-                    <div class="product_buttons">
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-                <article class="product">
-                    <img src="img/full_exceed-cf-slx-9-wmn_c1288.png" alt="Full Exceed CF SL 9 WNM">
-                    <h4>Full Exceed CF SL 9 WNM</h4>
-                    <div class="product_buttons">
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-                <article class="product">
-                    <img src="img/full_exceed-cf-slx-9-pro-race-ltd_c1243.png" alt="Full Exceed CF SLX 9 Pro Race LTD">
-                    <h4>Full Exceed CF SLX 9 Pro Race LTD</h4>
-                    <div class="product_buttons">
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-                <article class="product">
-                    <img src="img/full_exceed-cf-slx-9-pro-race_c1152.png" alt="Full Exceed CF SLX 9 Pro Race">
-                    <h4>Full Exceed CF SLX 9 Pro Race</h4>
-                    <div class="product_buttons">
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-                <article class="product">
-                    <img src="img/full_lux-cf-sl-8-pro-race_c1288.png" alt="Full Lux CF SL 8 Pro Race">
-                    <h4>Full Lux CF SL 8 Pro Race</h4>
-                    <div class="product_buttons">
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-            </div>
-            <h2 id="trail">Trail</h2>
-            <div class="product_list">
-                <article class="product">
-                    <img src="img/full_neuron-al-7_c1275.png" alt="Full Neuron AL 7">
-                    <h4>Full Neuron AL 7</h4>
-                    <div class="product_buttons">
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-            </div>
-            <h2 id="enduro">Enduro</h2>
-            <div class="product_list">
-                <article class="product">
-                    <img src="img/full_strive-cf-6_c1327.png" alt="Full Strive CF 6">
-                    <h4>Full Strive CF 6</h4>
-                    <div class="product_buttons">
-                        <button class="button card-button">Buy</button>
-                    </div>
-                </article>
-            </div>
-        </main>
-        <footer>
-            <!--<h3>Love The Ride</h3>-->
-            <div class="footer">
-                <div class="subscribe">
-                    <h3>Subscribe</h3>
-                    <form>
-                        <input type="text" placeholder="Name">
-                        <input type="email" placeholder="Email" id="email" required>
-                        <input type="submit" value="Sign up">
-                    </form>
+        </nav>
+        <div class="banner">
+            <h1>Find your bike for adventures</h1>
+        </div>
+    </header>
+    <main>
+        <h2 id="cross_country">Cross Country</h2>
+        <div class="product_list">
+            <article class="product">
+                <img src="img/full_grand-canyon-al-5-WMN_c1336.png" alt="Full Grand Canyon AL 5 WMN">
+                <h4>Full Grand Canyon AL 5 WMN</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
                 </div>
-                <div class="social">
-                    <h3>Join our community</h3>
-                    <a href="https://www.facebook.com">
-                        <img src="img/facebook_icon.png" alt="facebook_icon">
-                    </a>
-                    <a href="https://www.youtube.com">
-                        <img src="img/youtube_logo.png" alt="youtube_icon">
-                    </a>
-                    <p>
-                        <small>
-                            <i>Copyright 2019 Bike Adventure</i>
-                        </small>
-                    </p>
+            </article>
+            <article class="product">
+                <img src="img/full_exceed-cf-sl-8-wmn_c1218.png" alt="Full Exceed CF SL 8 WMN">
+                <h4>Full Exceed CF SL 8 WMN</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
                 </div>
+            </article>
+            <article class="product">
+                <img src="img/full_exceed-cf-slx-9-wmn_c1288.png" alt="Full Exceed CF SL 9 WMN">
+                <h4>Full Exceed CF SL 9 WMN</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="img/full_exceed-cf-slx-9-pro-race-ltd_c1243.png" alt="Full Exceed CF SLX 9 Pro Race LTD">
+                <h4>Full Exceed CF SLX 9 Pro Race LTD</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="img/full_exceed-cf-slx-9-pro-race_c1152.png" alt="Full Exceed CF SLX 9 Pro Race">
+                <h4>Full Exceed CF SLX 9 Pro Race</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="img/full_lux-cf-sl-8-pro-race_c1288.png" alt="Full Lux CF SL 8 Pro Race">
+                <h4>Full Lux CF SL 8 Pro Race</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
+                </div>
+            </article>
+        </div>
+        <h2 id="trail">Trail</h2>
+        <div class="product_list">
+            <article class="product">
+                <img src="img/full_neuron-al-7_c1275.png" alt="Full Neuron AL 7">
+                <h4>Full Neuron AL 7</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="img/full_spectral-al-4-wmn_c1266.png" alt="Full Spectral AL 4 WMN">
+                <h4>Full Spectral AL 4 WMN</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="img/full_spectral-cf-8-wmn_c1226.png" alt="Full Spectral CF 8 WMN">
+                <h4>Full Spectral CF 8 WMN</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="img/full_spectral-cf-9-wmn_c1268.png" alt="Full Spectral CF 9 WMN">
+                <h4>Full Spectral CF 9 WMN</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="img/full_spectral-cfr-9-ltd_c1326.png" alt="Full Spectral CFR 9 LTD">
+                <h4>Full Spectral CFR 9 LTD</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
+                </div>
+            </article>
+        </div>
+        <h2 id="enduro">Enduro</h2>
+        <div class="product_list">
+            <article class="product">
+                <img src="img/full_strive-cf-6_c1327.png" alt="Full Strive CF 6">
+                <h4>Full Strive CF 6</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="img/full_strive-cf-7_c1099.png" alt="Full Strive CF 7">
+                <h4>Full Strive CF 7</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="img/full_strive-cfr-9-ltd_c1120.png" alt="Full Strive CFR 9 LTD">
+                <h4>Full Strive CFR 9 LTD</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
+                </div>
+            </article>
+            <article class="product">
+                <img src="img/full_strive-cfr-9-team_c1321.png" alt="Full Strive CFR 9 Team">
+                <h4>Full Strive CFR 9 Team</h4>
+                <div class="product_buttons">
+                    <button class="button card-button">ADD TO CART</button>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <!--<h3>Love The Ride</h3>-->
+        <div class="footer">
+            <div class="subscribe">
+                <h3>Subscribe</h3>
+                <form>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email" id="email" required>
+                    <input type="submit" value="Sign up">
+                </form>
             </div>
-        </footer>
-    </body>
+            <div class="social">
+                <h3>Join our community</h3>
+                <a href="https://www.facebook.com">
+                    <img src="img/facebook_icon.png" alt="facebook_icon">
+                </a>
+                <a href="https://www.youtube.com">
+                    <img src="img/youtube_logo.png" alt="youtube_icon">
+                </a>
+                <p>
+                    <small>
+                        <i>Copyright 2019 Bike Adventure</i>
+                    </small>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
